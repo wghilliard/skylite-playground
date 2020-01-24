@@ -39,7 +39,7 @@ found that the axes were not consistent among different images.
 ![](data/output/kmeans-pca_output_1.png)
 
 When discussing this problem, another friend then contributed an amazing filtering function that removes most of the
-dark colors! (see `claudia_criterion.ipynb`).
+dark colors! (see `notebooks/claudia_criterion.ipynb`).
 
 I then used this twice filtered set of pixels (random normal + claudia's criterion) to do KMeans clustering.
 
